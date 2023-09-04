@@ -1,9 +1,9 @@
 import React from 'react'
 
-const [postSlug] = () => {
+const Post = () => {
   return (
-    <div>Sample post</div>
+    <div>Sample Post</div>
   )
 }
 
-export default [postSlug]
+export default Post
