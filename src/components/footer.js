@@ -8,7 +8,7 @@ const footer = () => {
   <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
     <div class="lg:grid lg:grid-cols-2">
       <div
-        class="border-b border-gray-100 py-8 lg:order-last lg:border-b-0 lg:border-s lg:py-16 lg:ps-16"
+        class=" py-8 lg:order-last lg:border-b-0 lg:border-s lg:py-16 lg:ps-16"
       >
         <div className="block">
         <Link href="/" className="">
@@ -23,10 +23,7 @@ const footer = () => {
             <h2 class="text-2xl font-medium text-gray-900">Request a Demo</h2>
 
             <p class="mt-4 max-w-lg text-gray-500">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Veritatis, harum deserunt nesciunt praesentium, repellendus eum
-              perspiciatis ratione pariatur a aperiam eius numquam doloribus
-              asperiores sunt.
+            Experience the future of aerial services with Tororo Drone Services - your trusted partner for drone technology solutions, setting new heights in innovation and excellence.
             </p>
           </div>
 
@@ -65,31 +62,31 @@ const footer = () => {
             <ul class="mt-6 space-y-4 text-sm">
               <li>
                 <a href="#" class="text-gray-700 transition hover:opacity-75">
-                  1on1 Coaching
+                  Special Events
                 </a>
               </li>
 
               <li>
                 <a href="#" class="text-gray-700 transition hover:opacity-75">
-                  Company Review
+                  Sporting Events
                 </a>
               </li>
 
               <li>
                 <a href="#" class="text-gray-700 transition hover:opacity-75">
-                  Accounts Review
+                  Live Broadcast
                 </a>
               </li>
 
               <li>
                 <a href="#" class="text-gray-700 transition hover:opacity-75">
-                  HR Consulting
+                  Marathons
                 </a>
               </li>
 
               <li>
                 <a href="#" class="text-gray-700 transition hover:opacity-75">
-                  SEO Optimisation
+                Live Feed Surveillance
                 </a>
               </li>
             </ul>
