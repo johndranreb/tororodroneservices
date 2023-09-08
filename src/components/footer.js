@@ -132,11 +132,6 @@ const footer = () => {
                 </a>
               </li>
 
-              <li>
-                <a href="#" className="text-gray-700 transition hover:opacity-75">
-                  Live Chat
-                </a>
-              </li>
             </ul>
           </div>
         </div>
