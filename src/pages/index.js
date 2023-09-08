@@ -28,13 +28,13 @@ export default function Home() {
         Your browser does not support the video tag.
       </video>
   <div
-    class="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
+    className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
   >
     <div className="max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
-      <h1 class="font-extrabold sm:text-5xl text-2xl text-green-500 text-left">
+      <h1 className="font-extrabold sm:text-5xl text-2xl text-green-500 text-left">
         TORORO
 
-        <strong class="block font-extrabold text-green-500">
+        <strong className="block font-extrabold text-green-500">
           Drone Services
         </strong>
       </h1>
@@ -46,14 +46,14 @@ export default function Home() {
       <div className="mt-8 flex flex-wrap gap-4 text-center">
         <a
           href="#"
-          class="block w-full rounded bg-green-600 px-8 py-3 text-sm font-medium text-white transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring active:bg-green-500 sm:w-auto"
+          className="block w-full rounded bg-green-600 px-8 py-3 text-sm font-medium text-white transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring active:bg-green-500 sm:w-auto"
         >
           Book Demo
         </a>
 
         <a
           href="#"
-          class="block w-full rounded border border-current px-8 py-3 text-sm font-medium text-white transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring active:text-green-500 border-green-500 sm:w-auto"
+          className="block w-full rounded border border-current px-8 py-3 text-sm font-medium text-white transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring active:text-green-500 border-green-500 sm:w-auto"
         >
           Learn More
         </a>
@@ -62,21 +62,21 @@ export default function Home() {
   </div>
 </section>
  
-<section class="bg-white px-3 py-6">
-    <div class="container px-6 py-10 mx-auto">
-        <div class="lg:flex lg:items-center">
-            <div class="w-full space-y-12 lg:w-1/2 ">
+<section className="bg-white px-3 py-6">
+    <div className="container px-6 py-10 mx-auto">
+        <div className="lg:flex lg:items-center">
+            <div className="w-full space-y-12 lg:w-1/2 ">
                 <div>
-                    <h1 class="text-2xl font-semibold text-green-500 capitalize lg:text-3xl">Welcome <br/> <span class="text-black">You will love it!</span></h1>
+                    <h1 className="text-2xl font-semibold text-green-500 capitalize lg:text-3xl">Welcome <br/> <span className="text-black">You will love it!</span></h1>
 
-                    <div class="mt-2">
-                        <span class="inline-block w-40 h-1 bg-green-500 rounded-full"></span>
-                        <span class="inline-block w-3 h-1 ml-1 bg-green-500 rounded-full"></span>
-                        <span class="inline-block w-1 h-1 ml-1 bg-green-500 rounded-full"></span>
+                    <div className="mt-2">
+                        <span className="inline-block w-40 h-1 bg-green-500 rounded-full"></span>
+                        <span className="inline-block w-3 h-1 ml-1 bg-green-500 rounded-full"></span>
+                        <span className="inline-block w-1 h-1 ml-1 bg-green-500 rounded-full"></span>
                     </div>
                 </div>
 
-                <div class="md:flex md:items-start md:-mx-4">
+                <div className="md:flex md:items-start md:-mx-4">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-8 h-8 mb-8 text-green-600">
     <path fillRule="evenodd" d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
   </svg>
@@ -86,7 +86,7 @@ export default function Home() {
     </div>
                 </div>
 
-                <div class="md:flex md:items-start md:-mx-4">
+                <div className="md:flex md:items-start md:-mx-4">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-8 h-8 mb-8 text-green-600">
     <path fillRule="evenodd" d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
   </svg>
@@ -96,7 +96,7 @@ export default function Home() {
     </div>
                 </div>
 
-                <div class="md:flex md:items-start md:-mx-4">
+                <div className="md:flex md:items-start md:-mx-4">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-8 h-8 mb-8 text-green-600">
     <path fillRule="evenodd" d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
   </svg>
@@ -107,37 +107,37 @@ export default function Home() {
                 </div>
             </div>
 
-            <div class="lg:flex lg:items-center lg:w-1/2 lg:justify-center">
-                <img class="w-[28rem] h-[28rem] object-cover xl:w-[34rem] xl:h-[34rem] rounded-3xl mt-4 mb-4 lg:mt-0 lg:mb-0" src="/section2-image.jpg" alt=""/>
+            <div className="lg:flex lg:items-center lg:w-1/2 lg:justify-center">
+                <img className="w-[28rem] h-[28rem] object-cover xl:w-[34rem] xl:h-[34rem] rounded-3xl mt-4 mb-4 lg:mt-0 lg:mb-0" src="/section2-image.jpg" alt=""/>
             </div>
         </div>
 
         <a
           href="#"
-          class="absolute rounded border bg-green-600 px-8 py-3 text-sm font-medium text-white transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring active:bg-green-500 sm:w-auto"
+          className="absolute rounded border bg-green-600 px-8 py-3 text-sm font-medium text-white transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring active:bg-green-500 sm:w-auto"
         >
           Book Demo
         </a>
 
 
-        <div class="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
-            <div class="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1">
+        <div className="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
+            <div className="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1">
                
             </div>
 
-            <div class="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1">
+            <div className="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1">
              
             </div>
 
-            <div class="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1">
+            <div className="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1">
                
             </div>
 
-            <div class="flex items-center justify-center col-span-1 md:col-span-3 lg:col-span-1">
+            <div className="flex items-center justify-center col-span-1 md:col-span-3 lg:col-span-1">
                 
             </div>
 
-            <div class="flex items-center justify-center col-span-2 md:col-span-3 lg:col-span-1">
+            <div className="flex items-center justify-center col-span-2 md:col-span-3 lg:col-span-1">
               
             </div>
         </div>
@@ -148,302 +148,302 @@ export default function Home() {
   <div className="relative w-[69.63rem] h-auto top-[3rem] pb-[6rem] container mx-auto lg:max-w-7xl">
     
     <div
-        class="relative top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-whitesmoke-200 w-[1440px] h-[1605px] text-xs text-green text-center"
+        className="relative top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-whitesmoke-200 w-[1440px] h-[1605px] text-xs text-green text-center"
       >
         <div
-          class="absolute top-[100px] left-[170px] w-[1100px] h-[105px] text-center text-19xl text-black"
+          className="absolute top-[100px] left-[170px] w-[1100px] h-[105px] text-center text-19xl text-black"
         >
           <div
-            class="absolute top-[35px] left-[4px] font-extrabold inline-block w-[1096px]"
+            className="absolute top-[35px] left-[4px] font-extrabold inline-block w-[1096px]"
           >
             What we can do
           </div>
           <div
-            class="absolute top-[102px] left-[400px] bg-gray-500 w-[300px] h-px"
+            className="absolute top-[102px] left-[400px] bg-gray-500 w-[300px] h-px"
           >
             <div
-              class="absolute top-[0px] left-[100px] bg-green w-[100px] h-[3px]"
+              className="absolute top-[0px] left-[100px] bg-green w-[100px] h-[3px]"
             ></div>
           </div>
           <div
-            class="absolute top-[0px] left-[0px] text-lg font-extrabold text-green inline-block w-[1100px]"
+            className="absolute top-[0px] left-[0px] text-lg font-extrabold text-green inline-block w-[1100px]"
           >
             Our Services
           </div>
         </div>
-        <div class="absolute top-[265px] left-[170px] w-[550px] h-[310px]">
+        <div className="absolute top-[265px] left-[170px] w-[550px] h-[310px]">
           <div
-            class="absolute top-[0px] left-[0px] bg-silver-100 shadow-[0px_0px_16px_rgba(15,_155,_15,_0.09)] w-[275px] h-[310px]"
+            className="absolute top-[0px] left-[0px] bg-silver-100 shadow-[0px_0px_16px_rgba(15,_155,_15,_0.09)] w-[275px] h-[310px]"
           ></div>
           <img
-            class="absolute top-[calc(50%_-_50px)] left-[calc(50%_-_187px)] w-[100px] h-[100px] overflow-hidden"
+            className="absolute top-[calc(50%_-_50px)] left-[calc(50%_-_187px)] w-[100px] h-[100px] overflow-hidden"
             alt=""
             src="/section2-image.jpg"
           />
 
-          <div class="absolute top-[0px] left-[250px] w-[300px] h-[310px]">
+          <div className="absolute top-[0px] left-[250px] w-[300px] h-[310px]">
             <div
-              class="absolute top-[0px] left-[25px] bg-white shadow-[0px_0px_16px_rgba(15,_155,_15,_0.09)] w-[275px] h-[310px]"
+              className="absolute top-[0px] left-[25px] bg-white shadow-[0px_0px_16px_rgba(15,_155,_15,_0.09)] w-[275px] h-[310px]"
             ></div>
             <img
-              class="absolute top-[25px] left-[50px] w-[60px] h-[60px] overflow-hidden"
+              className="absolute top-[25px] left-[50px] w-[60px] h-[60px] overflow-hidden"
               alt=""
               src="/section2-image.jpg"
             />
 
             <div
-              class="absolute top-[110px] left-[50px] font-extrabold inline-block w-[225px]"
+              className="absolute top-[110px] left-[50px] font-extrabold inline-block w-[225px]"
             >
               <span>Special</span>
-              <span class="text-black"> events surveillance</span>
+              <span className="text-black"> events surveillance</span>
             </div>
             <img
-              class="absolute top-[133.35px] left-[0px] w-[25.5px] h-[43.3px]"
+              className="absolute top-[133.35px] left-[0px] w-[25.5px] h-[43.3px]"
               alt=""
               src="/public/polygon-1.svg"
             />
 
             <div
-              class="absolute top-[206px] left-[50px] text-base font-h1 text-black inline-block w-[225px] h-[69px]"
+              className="absolute top-[206px] left-[50px] text-base font-h1 text-black inline-block w-[225px] h-[69px]"
             >
               Sed malesuada tristique euismod. Mauris maximus sagittis dolor a
               placerat.
             </div>
           </div>
         </div>
-        <div class="absolute top-[265px] left-[720px] w-[550px] h-[310px]">
+        <div className="absolute top-[265px] left-[720px] w-[550px] h-[310px]">
           <div
-            class="absolute top-[0px] left-[0px] bg-silver-100 shadow-[0px_0px_16px_rgba(15,_155,_15,_0.09)] w-[275px] h-[310px]"
+            className="absolute top-[0px] left-[0px] bg-silver-100 shadow-[0px_0px_16px_rgba(15,_155,_15,_0.09)] w-[275px] h-[310px]"
           ></div>
           <img
-            class="absolute top-[calc(50%_-_50px)] left-[calc(50%_-_187px)] w-[100px] h-[100px] overflow-hidden"
+            className="absolute top-[calc(50%_-_50px)] left-[calc(50%_-_187px)] w-[100px] h-[100px] overflow-hidden"
             alt=""
             src="/public/ionimages1.svg"
           />
 
-          <div class="absolute top-[0px] left-[250px] w-[300px] h-[310px]">
+          <div className="absolute top-[0px] left-[250px] w-[300px] h-[310px]">
             <div
-              class="absolute top-[0px] left-[25px] bg-white shadow-[0px_0px_16px_rgba(15,_155,_15,_0.09)] w-[275px] h-[310px]"
+              className="absolute top-[0px] left-[25px] bg-white shadow-[0px_0px_16px_rgba(15,_155,_15,_0.09)] w-[275px] h-[310px]"
             ></div>
             <img
-              class="absolute top-[25px] left-[50px] w-[60px] h-[60px] overflow-hidden"
+              className="absolute top-[25px] left-[50px] w-[60px] h-[60px] overflow-hidden"
               alt=""
               src="/public/carbondronevideo.svg"
             />
 
             <div
-              class="absolute top-[110px] left-[50px] font-extrabold inline-block w-[225px]"
+              className="absolute top-[110px] left-[50px] font-extrabold inline-block w-[225px]"
             >
               <span>General </span>
-              <span class="text-black">inspections</span>
+              <span className="text-black">inspections</span>
             </div>
             <img
-              class="absolute top-[133.35px] left-[0px] w-[25.5px] h-[43.3px]"
+              className="absolute top-[133.35px] left-[0px] w-[25.5px] h-[43.3px]"
               alt=""
               src="/public/polygon-1.svg"
             />
 
             <div
-              class="absolute top-[206px] left-[50px] text-base font-h1 text-black inline-block w-[225px] h-[69px]"
+              className="absolute top-[206px] left-[50px] text-base font-h1 text-black inline-block w-[225px] h-[69px]"
             >
               Sed malesuada tristique euismod. Mauris maximus sagittis dolor a
               placerat.
             </div>
           </div>
         </div>
-        <div class="absolute top-[575px] left-[170px] w-[550px] h-[310px]">
+        <div className="absolute top-[575px] left-[170px] w-[550px] h-[310px]">
           <div
-            class="absolute top-[0px] left-[275px] bg-silver-100 w-[275px] h-[310px]"
+            className="absolute top-[0px] left-[275px] bg-silver-100 w-[275px] h-[310px]"
           ></div>
           <img
-            class="absolute top-[calc(50%_-_50px)] left-[calc(50%_+_88px)] w-[100px] h-[100px] overflow-hidden"
+            className="absolute top-[calc(50%_-_50px)] left-[calc(50%_+_88px)] w-[100px] h-[100px] overflow-hidden"
             alt=""
             src="/public/ionimages1.svg"
           />
 
-          <div class="absolute top-[0px] left-[0px] w-[300.5px] h-[310px]">
+          <div className="absolute top-[0px] left-[0px] w-[300.5px] h-[310px]">
             <div
-              class="absolute top-[0px] left-[0px] bg-white shadow-[0px_0px_16px_rgba(15,_155,_15,_0.09)] w-[275px] h-[310px]"
+              className="absolute top-[0px] left-[0px] bg-white shadow-[0px_0px_16px_rgba(15,_155,_15,_0.09)] w-[275px] h-[310px]"
             ></div>
             <img
-              class="absolute top-[25px] left-[25px] w-[60px] h-[60px] overflow-hidden"
+              className="absolute top-[25px] left-[25px] w-[60px] h-[60px] overflow-hidden"
               alt=""
               src="/public/carbonbasketball.svg"
             />
 
             <div
-              class="absolute top-[110px] left-[25px] font-extrabold inline-block w-[225px]"
+              className="absolute top-[110px] left-[25px] font-extrabold inline-block w-[225px]"
             >
               <span>Sporting </span>
-              <span class="text-black">events</span>
+              <span className="text-black">events</span>
             </div>
             <img
-              class="absolute top-[133.35px] left-[275px] w-[25.5px] h-[43.3px]"
+              className="absolute top-[133.35px] left-[275px] w-[25.5px] h-[43.3px]"
               alt=""
               src="/public/polygon-11.svg"
             />
 
             <div
-              class="absolute top-[168px] left-[25px] text-base font-h1 text-black inline-block w-[225px] h-[69px]"
+              className="absolute top-[168px] left-[25px] text-base font-h1 text-black inline-block w-[225px] h-[69px]"
             >
               Sed malesuada tristique euismod. Mauris maximus sagittis dolor a
               placerat.
             </div>
           </div>
         </div>
-        <div class="absolute top-[885px] left-[170px] w-[550px] h-[310px]">
+        <div className="absolute top-[885px] left-[170px] w-[550px] h-[310px]">
           <div
-            class="absolute top-[0px] left-[0px] bg-silver-100 shadow-[0px_0px_16px_rgba(15,_155,_15,_0.09)] w-[275px] h-[310px]"
+            className="absolute top-[0px] left-[0px] bg-silver-100 shadow-[0px_0px_16px_rgba(15,_155,_15,_0.09)] w-[275px] h-[310px]"
           ></div>
           <img
-            class="absolute top-[calc(50%_-_50px)] left-[calc(50%_-_187px)] w-[100px] h-[100px] overflow-hidden"
+            className="absolute top-[calc(50%_-_50px)] left-[calc(50%_-_187px)] w-[100px] h-[100px] overflow-hidden"
             alt=""
             src="/public/ionimages1.svg"
           />
 
-          <div class="absolute top-[0px] left-[250px] w-[300px] h-[310px]">
+          <div className="absolute top-[0px] left-[250px] w-[300px] h-[310px]">
             <div
-              class="absolute top-[0px] left-[25px] bg-white w-[275px] h-[310px]"
+              className="absolute top-[0px] left-[25px] bg-white w-[275px] h-[310px]"
             ></div>
             <img
-              class="absolute top-[29px] left-[50px] w-[60px] h-[60px] overflow-hidden"
+              className="absolute top-[29px] left-[50px] w-[60px] h-[60px] overflow-hidden"
               alt=""
               src="/public/carbonpedestrian.svg"
             />
 
             <div
-              class="absolute top-[110px] left-[50px] font-extrabold inline-block w-[225px]"
+              className="absolute top-[110px] left-[50px] font-extrabold inline-block w-[225px]"
             >
               Marathons
             </div>
             <img
-              class="absolute top-[133.35px] left-[0px] w-[25.5px] h-[43.3px]"
+              className="absolute top-[133.35px] left-[0px] w-[25.5px] h-[43.3px]"
               alt=""
               src="/public/polygon-1.svg"
             />
 
             <div
-              class="absolute top-[168px] left-[50px] text-base font-h1 text-black inline-block w-[225px] h-[69px]"
+              className="absolute top-[168px] left-[50px] text-base font-h1 text-black inline-block w-[225px] h-[69px]"
             >
               Sed malesuada tristique euismod. Mauris maximus sagittis dolor a
               placerat.
             </div>
           </div>
         </div>
-        <div class="absolute top-[885px] left-[720px] w-[550px] h-[310px]">
+        <div className="absolute top-[885px] left-[720px] w-[550px] h-[310px]">
           <div
-            class="absolute top-[0px] left-[0px] bg-silver-100 w-[275px] h-[310px]"
+            className="absolute top-[0px] left-[0px] bg-silver-100 w-[275px] h-[310px]"
           ></div>
           <img
-            class="absolute top-[calc(50%_-_50px)] left-[calc(50%_-_187px)] w-[100px] h-[100px] overflow-hidden"
+            className="absolute top-[calc(50%_-_50px)] left-[calc(50%_-_187px)] w-[100px] h-[100px] overflow-hidden"
             alt=""
             src="/public/ionimages1.svg"
           />
 
-          <div class="absolute top-[0px] left-[250px] w-[300px] h-[310px]">
+          <div className="absolute top-[0px] left-[250px] w-[300px] h-[310px]">
             <div
-              class="absolute top-[0px] left-[25px] bg-white shadow-[0px_0px_16px_rgba(15,_155,_15,_0.09)] w-[275px] h-[310px]"
+              className="absolute top-[0px] left-[25px] bg-white shadow-[0px_0px_16px_rgba(15,_155,_15,_0.09)] w-[275px] h-[310px]"
             ></div>
             <img
-              class="absolute top-[25px] left-[50px] w-[60px] h-[60px] overflow-hidden"
+              className="absolute top-[25px] left-[50px] w-[60px] h-[60px] overflow-hidden"
               alt=""
               src="/public/carbonvideo.svg"
             />
 
             <div
-              class="absolute top-[110px] left-[50px] font-extrabold inline-block w-[225px]"
+              className="absolute top-[110px] left-[50px] font-extrabold inline-block w-[225px]"
             >
               <span>Live </span>
-              <span class="text-black">broadcast</span>
+              <span className="text-black">broadcast</span>
             </div>
             <img
-              class="absolute top-[133.35px] left-[0px] w-[25.5px] h-[43.3px]"
+              className="absolute top-[133.35px] left-[0px] w-[25.5px] h-[43.3px]"
               alt=""
               src="/public/polygon-1.svg"
             />
 
             <div
-              class="absolute top-[168px] left-[50px] text-base font-h1 text-black inline-block w-[225px] h-[69px]"
+              className="absolute top-[168px] left-[50px] text-base font-h1 text-black inline-block w-[225px] h-[69px]"
             >
               Sed malesuada tristique euismod. Mauris maximus sagittis dolor a
               placerat.
             </div>
           </div>
         </div>
-        <div class="absolute top-[1195px] left-[170px] w-[550px] h-[310px]">
+        <div className="absolute top-[1195px] left-[170px] w-[550px] h-[310px]">
           <div
-            class="absolute top-[0px] left-[275px] bg-silver-100 shadow-[0px_0px_16px_rgba(15,_155,_15,_0.09)] w-[275px] h-[310px]"
+            className="absolute top-[0px] left-[275px] bg-silver-100 shadow-[0px_0px_16px_rgba(15,_155,_15,_0.09)] w-[275px] h-[310px]"
           ></div>
           <img
-            class="absolute top-[calc(50%_-_50px)] left-[calc(50%_+_87px)] w-[100px] h-[100px] overflow-hidden"
+            className="absolute top-[calc(50%_-_50px)] left-[calc(50%_+_87px)] w-[100px] h-[100px] overflow-hidden"
             alt=""
             src="/public/ionimages1.svg"
           />
 
-          <div class="absolute top-[0px] left-[0px] w-[300.5px] h-[310px]">
+          <div className="absolute top-[0px] left-[0px] w-[300.5px] h-[310px]">
             <div
-              class="absolute top-[0px] left-[0px] bg-white shadow-[0px_0px_16px_rgba(15,_155,_15,_0.09)] w-[275px] h-[310px]"
+              className="absolute top-[0px] left-[0px] bg-white shadow-[0px_0px_16px_rgba(15,_155,_15,_0.09)] w-[275px] h-[310px]"
             ></div>
             <img
-              class="absolute top-[25px] left-[25px] w-[60px] h-[60px] overflow-hidden"
+              className="absolute top-[25px] left-[25px] w-[60px] h-[60px] overflow-hidden"
               alt=""
               src="/public/carbonskipforwardoutline.svg"
             />
 
             <div
-              class="absolute top-[110px] left-[25px] font-extrabold inline-block w-[225px]"
+              className="absolute top-[110px] left-[25px] font-extrabold inline-block w-[225px]"
             >
               <span>Live </span>
-              <span class="text-black">feed surveillance</span>
+              <span className="text-black">feed surveillance</span>
             </div>
             <img
-              class="absolute top-[133.35px] left-[275px] w-[25.5px] h-[43.3px]"
+              className="absolute top-[133.35px] left-[275px] w-[25.5px] h-[43.3px]"
               alt=""
               src="/public/polygon-11.svg"
             />
 
             <div
-              class="absolute top-[206px] left-[25px] text-base font-h1 text-black inline-block w-[225px] h-[69px]"
+              className="absolute top-[206px] left-[25px] text-base font-h1 text-black inline-block w-[225px] h-[69px]"
             >
               Sed malesuada tristique euismod. Mauris maximus sagittis dolor a
               placerat.
             </div>
           </div>
         </div>
-        <div class="absolute top-[575px] left-[720px] w-[550px] h-[310px]">
+        <div className="absolute top-[575px] left-[720px] w-[550px] h-[310px]">
           <div
-            class="absolute top-[0px] left-[275px] bg-silver-100 shadow-[0px_0px_16px_rgba(15,_155,_15,_0.09)] w-[275px] h-[310px]"
+            className="absolute top-[0px] left-[275px] bg-silver-100 shadow-[0px_0px_16px_rgba(15,_155,_15,_0.09)] w-[275px] h-[310px]"
           ></div>
           <img
-            class="absolute top-[calc(50%_-_50px)] left-[calc(50%_+_88px)] w-[100px] h-[100px] overflow-hidden"
+            className="absolute top-[calc(50%_-_50px)] left-[calc(50%_+_88px)] w-[100px] h-[100px] overflow-hidden"
             alt=""
             src="/public/ionimages1.svg"
           />
 
-          <div class="absolute top-[0px] left-[0px] w-[300.5px] h-[310px]">
+          <div className="absolute top-[0px] left-[0px] w-[300.5px] h-[310px]">
             <div
-              class="absolute top-[0px] left-[0px] bg-white w-[275px] h-[310px]"
+              className="absolute top-[0px] left-[0px] bg-white w-[275px] h-[310px]"
             ></div>
             <img
-              class="absolute top-[25px] left-[25px] w-[60px] h-[60px] overflow-hidden"
+              className="absolute top-[25px] left-[25px] w-[60px] h-[60px] overflow-hidden"
               alt=""
               src="/public/carbonsailboatcoastal.svg"
             />
 
             <div
-              class="absolute top-[110px] left-[25px] font-extrabold inline-block w-[225px]"
+              className="absolute top-[110px] left-[25px] font-extrabold inline-block w-[225px]"
             >
               <span>Water </span>
-              <span class="text-black">sports</span>
+              <span className="text-black">sports</span>
             </div>
             <img
-              class="absolute top-[133.35px] left-[275px] w-[25.5px] h-[43.3px]"
+              className="absolute top-[133.35px] left-[275px] w-[25.5px] h-[43.3px]"
               alt=""
               src="/public/polygon-11.svg"
             />
 
             <div
-              class="absolute top-[168px] left-[25px] text-base font-h1 text-black inline-block w-[225px] h-[69px]"
+              className="absolute top-[168px] left-[25px] text-base font-h1 text-black inline-block w-[225px] h-[69px]"
             >
               Sed malesuada tristique euismod. Mauris maximus sagittis dolor a
               placerat.
@@ -451,23 +451,23 @@ export default function Home() {
           </div>
         </div>
         <div
-          class="absolute top-[1195px] left-[720px] bg-green shadow-[0px_0px_16px_rgba(15,_155,_15,_0.09)] w-[550px] h-[310px] text-center text-white"
+          className="absolute top-[1195px] left-[720px] bg-green shadow-[0px_0px_16px_rgba(15,_155,_15,_0.09)] w-[550px] h-[310px] text-center text-white"
         >
           <div
-            class="absolute top-[136px] left-[50px] font-extrabold inline-block w-[450px]"
+            className="absolute top-[136px] left-[50px] font-extrabold inline-block w-[450px]"
           >
             and more others...
           </div>
         </div>
       </div>
       <div
-        class="absolute left-[0px] w-[1440px] h-[627px] font-h1"
+        className="absolute left-[0px] w-[1440px] h-[627px] font-h1"
       />
         <div
-          class="absolute top-[0px] left-[0px] bg-lightgray-200 w-[1440px] h-[527px] mix-blend-luminosity"
+          className="absolute top-[0px] left-[0px] bg-lightgray-200 w-[1440px] h-[527px] mix-blend-luminosity"
         ></div>
         <img
-          class="absolute top-[calc(50%_-_149.5px)] left-[calc(50%_-_450px)] w-[200px] h-[200px] overflow-hidden"
+          className="absolute top-[calc(50%_-_149.5px)] left-[calc(50%_-_450px)] w-[200px] h-[200px] overflow-hidden"
           alt=""
           src="/section2-image.jpg"
         />
@@ -586,10 +586,10 @@ export default function Home() {
       </video>
 				</div>
         <div>
-        <div class="b animate-bounce mx-auto h-16 w-64 flex justify-center items-center mt-8 md:ml-96">
-      <div class="i h-16 w-64 bg-gradient-to-br from-green-500 to-gray-500 items-center rounded-xl shadow-2xl  cursor-pointer absolute overflow-hidden transform hover:scale-x-110 hover:scale-y-105 transition duration-300 ease-out">
+        <div className="b animate-bounce mx-auto h-16 w-64 flex justify-center items-center mt-8 md:ml-96">
+      <div className="i h-16 w-64 bg-gradient-to-br from-green-500 to-gray-500 items-center rounded-xl shadow-2xl  cursor-pointer absolute overflow-hidden transform hover:scale-x-110 hover:scale-y-105 transition duration-300 ease-out">
       </div>
-      <a class="text-center text-white font-semibold z-10 pointer-events-none flex justify-content items-center"><span class=""><svg class="w-5 h-5 right-1.5 relative" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+      <a className="text-center text-white font-semibold z-10 pointer-events-none flex justify-content items-center"><span className=""><svg className="w-5 h-5 right-1.5 relative" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
             <path fill-rule="evenodd" d="M16.707 10.293a1 1 0 010 1.414l-6 6a1 1 0 01-1.414 0l-6-6a1 1 0 111.414-1.414L9 14.586V3a1 1 0 012 0v11.586l4.293-4.293a1 1 0 011.414 0z" clip-rule="evenodd" />
           </svg></span>Load More</a>
     </div>
