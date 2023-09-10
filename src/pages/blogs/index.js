@@ -7,6 +7,7 @@ import Image from 'next/image'
 import Head from 'next/head'
 import { getAllPosts } from '../../../lib/post'
 import FeaturedImage from '@/components/FeaturedImage'
+import Date from '@/components/date'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -51,6 +52,10 @@ const index = ({allPosts}) => {
                     <h2 className="py-4">
                       <Link href={`/blog/${post.slug}`} className="text-green-500 font-bold text-2xl hover:text-green-700">{post.title}</Link>
                     </h2>
+                    <div className="py-4">
+                      Published on <Date dateString={post.date} />
+                    </div>
+
                     <div dangerouslySetInnerHTML={{__html: post.excerpt }} className="text-lg"></div>
                     <div className="py-4">
                       Posted under {
