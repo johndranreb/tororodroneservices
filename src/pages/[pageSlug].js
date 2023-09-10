@@ -1,9 +1,7 @@
 import React from 'react'
 
-const Page = () => {
+export default function Page(){
   return (
-    <div>Sample page</div>
+    <h1> This is a sample page</h1>
   )
 }
-
-export default Page

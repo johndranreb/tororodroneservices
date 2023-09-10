@@ -10,6 +10,7 @@ import FeaturedImage from '@/components/FeaturedImage'
 import Date from '@/components/date'
 
 
+
 const inter = Inter({ subsets: ['latin'] })
 
 export async function getStaticProps(){
@@ -18,11 +19,11 @@ export async function getStaticProps(){
   return{
     props: {
       allPosts: allPosts,
-    }
+    },
   }
 }
 
-const index = ({allPosts}) => {
+export default function BlogHome ({allPosts}) {
   return (
     <>
     <Header/>
@@ -50,7 +51,7 @@ const index = ({allPosts}) => {
                   </div>
                   <div className="col-span-3">
                     <h2 className="py-4">
-                      <Link href={`/blog/${post.slug}`} className="text-green-500 font-bold text-2xl hover:text-green-700">{post.title}</Link>
+                      <Link href={`/${post.slug}`} className="text-green-500 font-bold text-2xl hover:text-green-700">{post.title}</Link>
                     </h2>
                     <div className="py-4">
                       Published on <Date dateString={post.date} />
@@ -60,7 +61,7 @@ const index = ({allPosts}) => {
                     <div className="py-4">
                       Posted under {
                         post.categories.nodes.map((category) =>(
-                          <Link className="text-green-500 hover:text-green-700" href={`/caretegory/${category.slug}`} key={category.slug}>{category.name}</Link>
+                          <Link className="text-green-500 hover:text-green-700" href={`/category/${category.slug}`} key={category.slug}>{category.name}</Link>
                         ))
                       }
                     </div>
@@ -76,5 +77,3 @@ const index = ({allPosts}) => {
    </>
   )
 }
-
-export default index

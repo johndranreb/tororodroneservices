@@ -1,9 +1,7 @@
 import React from 'react'
 
-const CategoryArchive = () => {
+export default function CategoryArchive() {
   return (
-    <div>Category Archive</div>
+    <h1> Category</h1>
   )
 }
-
-export default CategoryArchive
