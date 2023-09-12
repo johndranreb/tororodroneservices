@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import { getPostSlugs } from "../../../lib/post";
 import { getSinglePost } from "../../../lib/post";
+import Date from "@/components/date";
 
 export async function getStaticProps({params}) {
   const postData = await getSinglePost(params.postSlug);
@@ -53,6 +54,8 @@ export default function Post({ postData }) {
 
         <div className="container mx-auto h-full  flex flex-col justify-center lg:max-w-4xl">
           <h1 className="text-6xl text-center text-slate-100 relative z-10 py-8 mt-12">{postData.title}</h1>
+
+          <div className=""> Posted by John Dranreb | Last updated on <Date dateString={postData.modified} /></div>
 {/* 
           <div dangerouslySetInnerHTML={{__html: postData.excerpt}} className="relative z-10 text-left text-slate-200 text-2xl pl-4 border-l-4 border-green-500"/> */}
 
