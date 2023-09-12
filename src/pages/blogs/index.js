@@ -11,6 +11,7 @@ import Date from '@/components/date'
 
 
 
+
 const inter = Inter({ subsets: ['latin'] })
 
 export async function getStaticProps(){
@@ -51,7 +52,7 @@ export default function BlogHome ({allPosts}) {
                   </div>
                   <div className="col-span-3">
                     <h2 className="py-4">
-                      <Link href={`/${post.slug}`} className="text-green-500 font-bold text-2xl hover:text-green-700">{post.title}</Link>
+                      <Link href={`/blogs/${post.slug}`} className="text-green-500 font-bold text-2xl hover:text-green-700">{post.title}</Link>
                     </h2>
                     <div className="py-4">
                       Published on <Date dateString={post.date} />

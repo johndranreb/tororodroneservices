@@ -5,7 +5,7 @@ import Image from 'next/image'
 const header = () => {
   return (
   
-      <header className="container mx-auto lg:max-w flex items-center justify-between bg-gray-600 sticky top-0 z-50">
+      <header className="absolute  w-full mx-auto lg:max-w flex items-center justify-between bg-gray-600 sticky top-0 z-50 bg-opacity-70">
 <div className="max-w-2xl mx-auto text-xl font-bold">
     
     <nav className="border-gray-200 py-4 space-x-4 text-2xl font-bold">

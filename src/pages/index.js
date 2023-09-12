@@ -5,6 +5,7 @@ import { Inter } from 'next/font/google'
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'
 
+
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -22,8 +23,8 @@ export default function Home() {
       className={`/*flex min-h-screen flex-col items-center justify-between p-24*/ ${inter.className}`}
     >
 
-<section className="min-h-screen">
-<video autoPlay muted loop className="absolute min-h-screen left-0 w-full h-full object-cover z-0 opacity-90 " >
+<section className="relative min-h-screen">
+<video autoPlay muted loop className="absolute inset-0 w-full h-full object-cover z-0 opacity-90 " >
         <source src="/hero-video-17.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
