@@ -5,17 +5,19 @@ import Header from '@/components/Header'
 import Link from 'next/link'
 import Image from 'next/image'
 import Head from 'next/head'
-import { getAllPosts } from '../../../lib/post'
+import { getPostList } from '../../../lib/post'
 import FeaturedImage from '@/components/FeaturedImage'
 import Date from '@/components/date'
-
-
+import LoadMore from '@/components/loadmore'
+import { useState } from 'react'
 
 
 const inter = Inter({ subsets: ['latin'] })
 
+
+
 export async function getStaticProps(){
-  const allPosts = await getAllPosts();
+  const allPosts = await getPostList();
 
   return{
     props: {
@@ -25,6 +27,9 @@ export async function getStaticProps(){
 }
 
 export default function BlogHome ({allPosts}) {
+
+  const [posts, setPosts] = useState(allPosts);
+
   return (
     <>
     <Header/>
@@ -45,7 +50,7 @@ export default function BlogHome ({allPosts}) {
         <section className="container mx-auto lg:max-w-5xl post-list mt-4">
           <ul>
             {
-              allPosts.nodes.map((post) =>
+              posts.nodes.map((post) =>
                 <li key={post.slug} className="grid grid-cols-5 gap-4 mb-4">
                   <div className="col-span-2">
                     <FeaturedImage post = {post}></FeaturedImage>
@@ -71,7 +76,7 @@ export default function BlogHome ({allPosts}) {
               )
             }
           </ul>
-
+            <LoadMore posts={posts} setPosts={setPosts}/>
         </section>
       </main>
    <Footer/>
