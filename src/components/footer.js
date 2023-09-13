@@ -57,8 +57,12 @@ const footer = () => {
 
         <div className="mt-8 grid grid-cols-1 gap-8 sm:grid-cols-3">
           <div>
-            <p className="font-medium text-gray-900">Services</p>
-
+            <p className="font-medium text-gray-900">
+              <a href="#">
+              Services
+              </a>
+              </p>
+             
             <ul className="mt-6 space-y-4 text-sm">
               <li>
                 <a href="#" className="text-gray-700 transition hover:opacity-75">
@@ -121,13 +125,13 @@ const footer = () => {
 
             <ul className="mt-6 space-y-4 text-sm">
               <li>
-                <a href="#" className="text-gray-700 transition hover:opacity-75">
-                  Contact
+                <a href="/contact" className="text-gray-700 transition hover:opacity-75">
+                  Contact Us
                 </a>
               </li>
 
               <li>
-                <a href="#" className="text-gray-700 transition hover:opacity-75">
+                <a href="/frequently-asked-questions-faqs" className="text-gray-700 transition hover:opacity-75">
                   FAQs
                 </a>
               </li>

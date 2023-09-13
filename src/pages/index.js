@@ -476,7 +476,7 @@ export default function Home() {
 </section>  */}
 
 {/*Services*/ }
-<section className="bg-gray-100 text-gray-800 min-h-screen">
+<section className=" section-services bg-gray-100 text-gray-800 min-h-screen">
 	<div className="container max-w-xl p-6 py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl">
 		<div>
 			<h2 className="text-3xl font-bold tracki text-center sm:text-5xl text-gray-900">Our Services</h2>

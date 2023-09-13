@@ -34,6 +34,7 @@ export default function Page({ pageData }) {
     <div>
       <Head>
         <title>{pageData.title}</title>
+        <link rel="icon" href="/favicon-32x32.png" />
       </Head>
       <Header/>
       <section className="content-area py-8">

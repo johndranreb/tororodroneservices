@@ -42,6 +42,7 @@ export default function Post({ postData }) {
       <Header/>
       <Head>
         <title key={postData.slug}> {postData.title}</title>
+        <link rel="icon" href="/favicon-32x32.png" />
         <meta
           name="description"
           content={postData.excerpt}
