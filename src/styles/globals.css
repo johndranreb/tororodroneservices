@@ -18,8 +18,8 @@
   .post-content figure figcaption{
     @apply text-center py-2;
   }
-  .post-contetn h2 {
-    @apply text-2xl font-bold py-4;
+  .post-content h2 {
+    @apply text-3xl font-bold py-4 text-center;
   }
   .post-content h3{
     @apply text-xl font-bold py-4;

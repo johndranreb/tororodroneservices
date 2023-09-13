@@ -139,19 +139,19 @@ const footer = () => {
         <div className="mt-8 border-t border-gray-100 pt-8">
           <ul className="flex flex-wrap gap-4 text-xs">
             <li>
-              <a href="#" className="text-gray-500 transition hover:opacity-75">
+              <a href="/terms-and-conditions" className="text-gray-500 transition hover:opacity-75">
                 Terms & Conditions
               </a>
             </li>
 
             <li>
-              <a href="#" className="text-gray-500 transition hover:opacity-75">
+              <a href="/privacy-policy-2" className="text-gray-500 transition hover:opacity-75">
                 Privacy Policy
               </a>
             </li>
 
             <li>
-              <a href="#" className="text-gray-500 transition hover:opacity-75">
+              <a href="/cookies-policy" className="text-gray-500 transition hover:opacity-75">
                 Cookies
               </a>
             </li>
