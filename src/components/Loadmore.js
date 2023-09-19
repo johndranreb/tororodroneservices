@@ -41,8 +41,8 @@ export default function LoadMore({posts, setPosts}) {
       }
   }
   return (
-    <button className="load-more font-bold bg-green-500 text-slate-900 px-4 py-2 hover:bg-green-700" onClick={handleOnClick} disabled ={buttonDisabled}> 
-     {buttonText}
+    <button className="load-more font-bold bg-green-500 text-slate-900 px-4 py-2 hover:bg-green-700" onClick={handleOnClick} disabled ={posts.pageInfo.hasNextPage ? buttonDisabled :true}> 
+     {posts.pageInfo.hasNextPage ? buttonText : 'No more posts'}
    </button>
 
    

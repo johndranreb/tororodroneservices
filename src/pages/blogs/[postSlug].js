@@ -50,7 +50,7 @@ export default function Post({ postData }) {
         />
       </Head>
     <article>
-      <section className="relative h-full bg-[url('/hero-image-3.jpg')] relative bg-center bg-no-repeat bg-cover">
+      <section className="relative h-full bg-[url('/hero-image-3.jpg')] bg-center bg-no-repeat bg-cover">
         <div className="absolute inset-0 bg-slate-900 opacity-40"></div>
 
         <div className="container mx-auto h-full  flex flex-col justify-center lg:max-w-4xl">
