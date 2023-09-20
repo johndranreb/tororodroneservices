@@ -1,4 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Tororo Drone Services
+
+## Description
+
+Tororo Drone Services is a website that offers professional drone services for various purposes, including aerial photography, surveillance, delivery, and inspections. This repository contains the codebase and configuration for the website, which is built as a headless website using WordPress as the backend and Next.js with Tailwind CSS for the frontend.
+
+The website provides an intuitive and user-friendly interface for users to inquire about drone services, view service details, and contact Tororo Drone Services for their specific needs.
+
+This project is a headless website that leverages Next.js, Tailwind CSS, and WordPress as its backend. Below, you'll find information about the project, its technologies, and how to set it up.
+
+## Technologies Used
+
+- **Next.js:** Next.js is used for building the frontend of the website. It enables server-side rendering (SSR) for improved performance and SEO.
+
+- **Tailwind CSS:** Tailwind CSS is used for styling and UI components. It allows for easy customization and maintainability of the website's design.
+
+- **WordPress:** WordPress serves as the backend for the website. It is used to manage content, such as service details, blog posts, and other dynamic data.
+
+## Features
+
+- User-friendly interface for browsing drone services.
+- Contact form for users to inquire about services.
+- Blog section for sharing updates and information about drone technology and services.
 
 ## Getting Started
 
@@ -12,27 +34,45 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## To set up the project locally and start working on it, follow these steps:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+1. Clone the Repository:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+`git clone https://github.com/your-username/tororo-drone-services.git`
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+2. Install Dependencies:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Navigate to the project directory and install the required dependencies for both the frontend and the WordPress backend:
 
-## Learn More
+`cd tororo-drone-services`
+`npm install`
+`cd wordpress`
+`composer install`
 
-To learn more about Next.js, take a look at the following resources:
+3. WordPress Configuration:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Create a MySQL database for WordPress and configure it in the wordpress/wp-config.php file.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Install WordPress by running the setup wizard in your web browser.
 
-## Deploy on Vercel
+Configure the required plugins and settings.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. Start the Development Server:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+In the project root directory, start the development server:
+
+`npm run dev`
+
+5. Access the Website:
+
+Open your web browser and access the website at http://localhost:3000.
+
+## Contribution
+
+Contributions to this project are welcome. If you'd like to contribute, please follow the standard GitHub flow:
+
+Fork the repository.
+Create a new branch for your feature or bug fix.
+Make your changes and commit them with descriptive commit messages.
+Push your changes to your fork.
+Create a pull request to the main repository.
