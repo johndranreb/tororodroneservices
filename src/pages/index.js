@@ -110,7 +110,7 @@ export default function Home() {
             </div>
 
             <div className="lg:flex lg:items-center lg:w-1/2 lg:justify-center" >
-                <img className="w-[28rem] h-[28rem] object-cover xl:w-[34rem] xl:h-[34rem] rounded-3xl mt-4 mb-4 lg:mt-0 lg:mb-0" src="/section2-image.jpg" alt=""/>
+                <Image className="w-[28rem] h-[28rem] object-cover xl:w-[34rem] xl:h-[34rem] rounded-3xl mt-4 mb-4 lg:mt-0 lg:mb-0" src="/section2-image.jpg" alt=""/>
             </div>
         </div>
 
@@ -292,7 +292,7 @@ export default function Home() {
 				</p>
 			</div>
 			<div className="flex flex-col items-center justify-center p-8 rounded-b-lg bg-green-600 text-gray-50">
-				<img src="https://source.unsplash.com/50x50/?portrait?1" alt="" className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full bg-gray-500 bg-gray-300" />
+				<Image src="https://source.unsplash.com/50x50/?portrait?1" alt="" className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full bg-gray-500 bg-gray-300" />
 				<p className="text-xl font-semibold leadi">John Smith</p>
 				<p className="text-sm uppercase">Real Estate Agent</p>
 			</div>
@@ -311,7 +311,7 @@ export default function Home() {
 				</p>
 			</div>
 			<div className="flex flex-col items-center justify-center p-8 rounded-b-lg bg-green-600 text-gray-50">
-				<img src="https://source.unsplash.com/50x50/?portrait?2" alt="" className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full bg-gray-500 bg-gray-300" />
+				<Image src="https://source.unsplash.com/50x50/?portrait?2" alt="" className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full bg-gray-500 bg-gray-300" />
 				<p className="text-xl font-semibold leadi">Sarah Johnson</p>
 				<p className="text-sm uppercase">Sports Event Organizer</p>
 			</div>
@@ -330,7 +330,7 @@ export default function Home() {
 				</p>
 			</div>
 			<div className="flex flex-col items-center justify-center p-8 rounded-b-lg bg-green-600 text-gray-50">
-				<img src="https://source.unsplash.com/50x50/?portrait?1" alt="" className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full bg-gray-500 bg-gray-300" />
+				<Image src="https://source.unsplash.com/50x50/?portrait?1" alt="" className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full bg-gray-500 bg-gray-300" />
 				<p className="text-xl font-semibold leadi">John Smith</p>
 				<p className="text-sm uppercase">Real Estate Agent</p>
 			</div>
@@ -349,7 +349,7 @@ export default function Home() {
 				</p>
 			</div>
 			<div className="flex flex-col items-center justify-center p-8 rounded-b-lg bg-green-600 text-gray-50">
-				<img src="https://source.unsplash.com/50x50/?portrait?1" alt="" className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full bg-gray-500 bg-gray-300" />
+				<Image src="https://source.unsplash.com/50x50/?portrait?1" alt="" className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full bg-gray-500 bg-gray-300" />
 				<p className="text-xl font-semibold leadi">John Smith</p>
 				<p className="text-sm uppercase">Real Estate Agent</p>
 			</div>
@@ -368,7 +368,7 @@ export default function Home() {
 
         <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
             <div class="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-green-500 rounded-xl">
-                <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300 group-hover:ring-white" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt=""/>
+                <Image class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300 group-hover:ring-white" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt=""/>
 
                 <h1 class="mt-4 text-2xl font-semibold capitalize group-hover:text-white">John Dranreb</h1>
 
@@ -405,7 +405,7 @@ export default function Home() {
             </div>
 
             <div class="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-green-500 rounded-xl">
-                <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300 group-hover:ring-white" src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" alt=""/>
+                <Image class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300 group-hover:ring-white" src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" alt=""/>
 
                 <h1 class="mt-4 text-2xl font-semibold group-hover:text-white">Sarah Johnson</h1>
 
@@ -442,7 +442,7 @@ export default function Home() {
             </div>
 
             <div class="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-green-500 rounded-xl">
-                <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300 group-hover:ring-white" src="https://images.unsplash.com/photo-1488508872907-592763824245?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt=""/>
+                <Image class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300 group-hover:ring-white" src="https://images.unsplash.com/photo-1488508872907-592763824245?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt=""/>
 
                 <h1 class="mt-4 text-2xl font-semibold group-hover:text-white">JM Otong</h1>
 
@@ -479,7 +479,7 @@ export default function Home() {
             </div>
 
             <div class="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-green-500 rounded-xl">
-                <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300 group-hover:ring-white" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt=""/>
+                <Image class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300 group-hover:ring-white" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt=""/>
 
                 <h1 class="mt-4 text-2xl font-semibold group-hover:text-white">Michael Lee</h1>
 
@@ -516,7 +516,7 @@ export default function Home() {
             </div>
 
             <div class="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-green-500 rounded-xl">
-                <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300 group-hover:ring-white" src="https://images.unsplash.com/photo-1499470932971-a90681ce8530?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt=""/>
+                <Image class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300 group-hover:ring-white" src="https://images.unsplash.com/photo-1499470932971-a90681ce8530?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt=""/>
 
                 <h1 class="mt-4 text-2xl font-semibold group-hover:text-white">Sofia Gonzales</h1>
 
@@ -553,7 +553,7 @@ export default function Home() {
             </div>
 
             <div class="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-green-500 rounded-xl">
-                <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300 group-hover:ring-white" src="https://images.unsplash.com/photo-1608174386344-80898cec6beb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt=""/>
+                <Image class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300 group-hover:ring-white" src="https://images.unsplash.com/photo-1608174386344-80898cec6beb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt=""/>
 
                 <h1 class="mt-4 text-2xl font-semibold capitalize  group-hover:text-white">Miguel Dela Cruz</h1>
 
@@ -590,7 +590,7 @@ export default function Home() {
             </div>
 
             <div class="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-green-500 rounded-xl">
-                <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300 group-hover:ring-white" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt=""/>
+                <Image class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300 group-hover:ring-white" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt=""/>
 
                 <h1 class="mt-4 text-2xl font-semibold capitalize group-hover:text-white">Joseph Gonzalez</h1>
 
@@ -627,7 +627,7 @@ export default function Home() {
             </div>
 
             <div class="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-green-500 rounded-xl">
-                <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300 group-hover:ring-white" src="https://images.unsplash.com/photo-1521488741203-dcc320950ce5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt=""/>
+                <Image class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300 group-hover:ring-white" src="https://images.unsplash.com/photo-1521488741203-dcc320950ce5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt=""/>
 
                 <h1 class="mt-4 text-2xl font-semibold capitalize  group-hover:text-white">JD Bangad</h1>
 
