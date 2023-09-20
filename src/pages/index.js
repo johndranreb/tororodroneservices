@@ -47,7 +47,7 @@ export default function Home() {
 
       <div className="mt-8 flex flex-wrap gap-4 text-center">
         <a
-          href="/contact"
+          href="/tororo-drone-services-demo-form"
           className="block w-full rounded bg-green-600 px-8 py-3 text-sm font-medium text-white transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring active:bg-green-500 sm:w-auto"
         >
           Book Demo

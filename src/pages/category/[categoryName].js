@@ -51,10 +51,10 @@ export default function CategoryArchive({categoryPosts, categoryDetails}) {
         <title>{categoryDetails.name}</title>
         <link rel="icon" href="/favicon-32x32.png" />
       </Head>
-      <div className="relative h-full bg-[url('/hero-image-3.jpg')] bg-center bg-no-repeat bg-cover">
-        <div className=" absolute bg-slate-900 opacity-40 inset-0 z-0"> </div>
-        <h1 className=" text-6xl text-center text-white relative z-10 py-8"> Category Archive: {categoryDetails.name} </h1>
-        <p className="relative z-10 text-center text-white text-2xl"> Found {categoryDetails.count} posts</p>
+      <div className="h-[70vh] ">
+        <div className="h-[60vh] min-h-[30rem] absolute opacity-70 bg-slate-900 inset-0 z-0 bg-[url('/hero-image-3.jpg')] bg-center bg-no-repeat bg-cover"></div>
+        <h1 className=" text-6xl text-center font-bold relative z-10 py-8 pt-20"> Category Archive: {categoryDetails.name} </h1>
+        <p className="relative z-10 text-center font-bold  text-2xl pb-20"> Found {categoryDetails.count} posts</p>
       </div>
       <main>
         <section className="post-list mt-4">

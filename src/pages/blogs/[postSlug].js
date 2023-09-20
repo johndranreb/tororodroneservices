@@ -50,13 +50,13 @@ export default function Post({ postData }) {
         />
       </Head>
     <article>
-      <section className="relative h-full bg-[url('/hero-image-3.jpg')] bg-center bg-no-repeat bg-cover">
-        <div className="absolute inset-0 bg-slate-900 opacity-40"></div>
+      <section className="h-[70vh] ">
+        <div className="absolute h-[60vh] min-h-[32rem] inset-0 bg-slate-900 opacity-70 bg-[url('/hero-image-3.jpg')] bg-center bg-no-repeat bg-cover"></div>
 
         <div className="container mx-auto h-full  flex flex-col justify-center lg:max-w-4xl">
-          <h1 className="text-6xl text-center text-slate-100 relative z-10 py-8 mt-12">{postData.title}</h1>
+          <h1 className="text-6xl text-center  relative font-bold py-8 mt-12">{postData.title}</h1>
 
-          <div className=""> Posted by John Dranreb | Last updated on <Date dateString={postData.modified} /></div>
+          <div className="z-10"> Posted by John Dranreb | Last updated on <Date dateString={postData.modified} /></div>
 {/* 
           <div dangerouslySetInnerHTML={{__html: postData.excerpt}} className="relative z-10 text-left text-slate-200 text-2xl pl-4 border-l-4 border-green-500"/> */}
 

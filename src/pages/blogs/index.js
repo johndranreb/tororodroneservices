@@ -38,11 +38,11 @@ export default function BlogHome ({allPosts}) {
         <title>Blog</title>
         <link rel="icon" href="/favicon-32x32.png" />
       </Head>
-      <div className="h-[50vh] min-h-[20rem] bg-[url('/hero-image-3.jpg')] relative bg-center bg-no-repeat bg-cover">
-        <div className="absolute bg-slate-900 inset-0 z-0 opacity-30"></div>
+      <div className="h-[70vh] ">
+        <div className="h-[60vh] min-h-[30rem] absolute bg-slate-900 inset-0 z-0 bg-[url('/hero-image-3.jpg')] bg-center bg-no-repeat bg-cover"></div>
 
-      <h1 className="text-6xl text-center text-white relative z-10 py-8">Blog</h1>
-      <p className=" relative z-10 text-center text-white text-2xl"> Read our latest article</p>
+      <h1 className="text-6xl text-center font-bold relative z-10 py-8 pt-20">Blog</h1>
+      <p className=" relative z-10 text-center font-bold text-2xl pb-20"> Read our latest article</p>
 
       </div>
 
