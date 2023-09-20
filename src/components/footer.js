@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 
-const footer = () => {
+const Footer = () => {
   return (
 <footer className="bg-green-500">
   <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
@@ -172,4 +172,4 @@ const footer = () => {
   )
 }
 
-export default footer
+export default Footer;
