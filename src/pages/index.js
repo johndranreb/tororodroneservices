@@ -110,7 +110,7 @@ export default function Home() {
             </div>
 
             <div className="lg:flex lg:items-center lg:w-1/2 lg:justify-center" >
-                <Image className="w-[28rem] h-[28rem] object-cover xl:w-[34rem] xl:h-[34rem] rounded-3xl mt-4 mb-4 lg:mt-0 lg:mb-0" src="/section2-image.jpg" alt=""/>
+                <Image className="w-[28rem] h-[28rem] object-cover xl:w-[34rem] xl:h-[34rem] rounded-3xl mt-4 mb-4 lg:mt-0 lg:mb-0" src="/section2-image.jpg" alt="Man holding a drone" width={4000} height={3000}/ >
             </div>
         </div>
 
@@ -292,7 +292,7 @@ export default function Home() {
 				</p>
 			</div>
 			<div className="flex flex-col items-center justify-center p-8 rounded-b-lg bg-green-600 text-gray-50">
-				<Image src="https://source.unsplash.com/50x50/?portrait?1" alt="" className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full bg-gray-500 bg-gray-300" />
+				<Image src="/johnsmith.jpg" alt="" width="100" height="100" objectFit="none" className="object-cover w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full bg-gray-500 " />
 				<p className="text-xl font-semibold leadi">John Smith</p>
 				<p className="text-sm uppercase">Real Estate Agent</p>
 			</div>
@@ -311,7 +311,7 @@ export default function Home() {
 				</p>
 			</div>
 			<div className="flex flex-col items-center justify-center p-8 rounded-b-lg bg-green-600 text-gray-50">
-				<Image src="https://source.unsplash.com/50x50/?portrait?2" alt="" className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full bg-gray-500 bg-gray-300" />
+				<Image src="/sarahjohnson.jpg" width="100" height="100" alt=""  className=" object-cover w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full bg-gray-500" />
 				<p className="text-xl font-semibold leadi">Sarah Johnson</p>
 				<p className="text-sm uppercase">Sports Event Organizer</p>
 			</div>
@@ -322,7 +322,7 @@ export default function Home() {
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" className="w-8 h-8 text-green-600">
 						<path d="M232,246.857V16H16V416H54.4ZM48,48H200V233.143L48,377.905Z"></path>
 						<path d="M280,416h38.4L496,246.857V16H280ZM312,48H464V233.143L312,377.905Z"></path>
-					</svg>Tororo Drone Services delivered stunning aerial footage for our real estate listings, impressing both clients and prospects.
+					</svg>The quality and professionalism of their drone operators exceeded our expectations. Highly recommended!
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" className="absolute right-0 w-8 h-8 text-green-600">
 						<path d="M280,185.143V416H496V16H457.6ZM464,384H312V198.857L464,54.1Z"></path>
 						<path d="M232,16H193.6L16,185.143V416H232ZM200,384H48V198.857L200,54.1Z"></path>
@@ -330,9 +330,9 @@ export default function Home() {
 				</p>
 			</div>
 			<div className="flex flex-col items-center justify-center p-8 rounded-b-lg bg-green-600 text-gray-50">
-				<Image src="https://source.unsplash.com/50x50/?portrait?1" alt="" className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full bg-gray-500 bg-gray-300" />
-				<p className="text-xl font-semibold leadi">John Smith</p>
-				<p className="text-sm uppercase">Real Estate Agent</p>
+				<Image src="/mariasantos.jpg" width="100" height="100" alt="" className="object-cover w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full bg-gray-500" />
+				<p className="text-xl font-semibold leadi">Maria Santos</p>
+				<p className="text-sm uppercase">Marketing Manager</p>
 			</div>
 		</div>
 		<div className="flex flex-col max-w-sm mx-4 my-6 shadow-lg lg:w-1/2">
@@ -341,7 +341,7 @@ export default function Home() {
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" className="w-8 h-8 text-green-600">
 						<path d="M232,246.857V16H16V416H54.4ZM48,48H200V233.143L48,377.905Z"></path>
 						<path d="M280,416h38.4L496,246.857V16H280ZM312,48H464V233.143L312,377.905Z"></path>
-					</svg>Tororo Drone Services delivered stunning aerial footage for our real estate listings, impressing both clients and prospects.
+					</svg>Their drone-based monitoring and analysis have greatly improved our agricultural practices. Thank you for your expertise!
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" className="absolute right-0 w-8 h-8 text-green-600">
 						<path d="M280,185.143V416H496V16H457.6ZM464,384H312V198.857L464,54.1Z"></path>
 						<path d="M232,16H193.6L16,185.143V416H232ZM200,384H48V198.857L200,54.1Z"></path>
@@ -349,9 +349,9 @@ export default function Home() {
 				</p>
 			</div>
 			<div className="flex flex-col items-center justify-center p-8 rounded-b-lg bg-green-600 text-gray-50">
-				<Image src="https://source.unsplash.com/50x50/?portrait?1" alt="" className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full bg-gray-500 bg-gray-300" />
-				<p className="text-xl font-semibold leadi">John Smith</p>
-				<p className="text-sm uppercase">Real Estate Agent</p>
+				<Image src="/josecruz.jpg" width="100" height="100" alt="" className="object-cover w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full bg-gray-500 bg-gray-300" />
+				<p className="text-xl font-semibold leadi">Jose Cruz</p>
+				<p className="text-sm uppercase">Agricultural Engineer</p>
 			</div>
 		</div>
 	</div>
@@ -368,7 +368,7 @@ export default function Home() {
 
         <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
             <div class="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-green-500 rounded-xl">
-                <Image class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300 group-hover:ring-white" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt=""/>
+                <Image class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300 group-hover:ring-white" src="/team1.jpg" width={300} height={300} alt=""/>
 
                 <h1 class="mt-4 text-2xl font-semibold capitalize group-hover:text-white">John Dranreb</h1>
 
@@ -405,7 +405,7 @@ export default function Home() {
             </div>
 
             <div class="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-green-500 rounded-xl">
-                <Image class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300 group-hover:ring-white" src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" alt=""/>
+                <Image class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300 group-hover:ring-white" src="/team2.jpg" width={300} height={300} alt=""/>
 
                 <h1 class="mt-4 text-2xl font-semibold group-hover:text-white">Sarah Johnson</h1>
 
@@ -442,9 +442,9 @@ export default function Home() {
             </div>
 
             <div class="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-green-500 rounded-xl">
-                <Image class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300 group-hover:ring-white" src="https://images.unsplash.com/photo-1488508872907-592763824245?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt=""/>
+                <Image class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300 group-hover:ring-white" src="/team3.jpg" width={300} height={300}  alt=""/>
 
-                <h1 class="mt-4 text-2xl font-semibold group-hover:text-white">JM Otong</h1>
+                <h1 class="mt-4 text-2xl font-semibold group-hover:text-white">Jhazzel Mhae</h1>
 
                 <p class="mt-2 text-gray-500 capitalize  group-hover:text-white">Project Manager</p>
 
@@ -479,7 +479,7 @@ export default function Home() {
             </div>
 
             <div class="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-green-500 rounded-xl">
-                <Image class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300 group-hover:ring-white" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt=""/>
+                <Image class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300 group-hover:ring-white" src="/team4.jpg" width={300} height={300}  alt=""/>
 
                 <h1 class="mt-4 text-2xl font-semibold group-hover:text-white">Michael Lee</h1>
 
@@ -516,9 +516,9 @@ export default function Home() {
             </div>
 
             <div class="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-green-500 rounded-xl">
-                <Image class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300 group-hover:ring-white" src="https://images.unsplash.com/photo-1499470932971-a90681ce8530?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt=""/>
+                <Image class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300 group-hover:ring-white" src="/team5.jpg" width={300} height={300}  alt=""/>
 
-                <h1 class="mt-4 text-2xl font-semibold group-hover:text-white">Sofia Gonzales</h1>
+                <h1 class="mt-4 text-2xl font-semibold group-hover:text-white">Helen Otong</h1>
 
                 <p class="mt-2 text-gray-500 capitalize  group-hover:text-white">Drone Technician</p>
 
@@ -553,7 +553,7 @@ export default function Home() {
             </div>
 
             <div class="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-green-500 rounded-xl">
-                <Image class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300 group-hover:ring-white" src="https://images.unsplash.com/photo-1608174386344-80898cec6beb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt=""/>
+                <Image class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300 group-hover:ring-white" src="/team7.jpg" width={300} height={300}  alt=""/>
 
                 <h1 class="mt-4 text-2xl font-semibold capitalize  group-hover:text-white">Miguel Dela Cruz</h1>
 
@@ -590,7 +590,7 @@ export default function Home() {
             </div>
 
             <div class="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-green-500 rounded-xl">
-                <Image class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300 group-hover:ring-white" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt=""/>
+                <Image class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300 group-hover:ring-white" src="/team6.jpg" width={300} height={300}  alt=""/>
 
                 <h1 class="mt-4 text-2xl font-semibold capitalize group-hover:text-white">Joseph Gonzalez</h1>
 
@@ -627,7 +627,7 @@ export default function Home() {
             </div>
 
             <div class="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-green-500 rounded-xl">
-                <Image class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300 group-hover:ring-white" src="https://images.unsplash.com/photo-1521488741203-dcc320950ce5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt=""/>
+                <Image class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300 group-hover:ring-white" src="/team8.jpg" width={300} height={300}  alt=""/>
 
                 <h1 class="mt-4 text-2xl font-semibold capitalize  group-hover:text-white">JD Bangad</h1>
 
