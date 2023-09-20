@@ -11,10 +11,10 @@ const header = () => {
 
 <nav class="border-gray-200 px-2 mb-10">
   <div class="container mx-auto flex flex-wrap items-center justify-between">
-  <a href="/" class="flex">
+  <Link href="/" class="flex">
   <Image src="/logo.png" alt="drone logo" width="50" height="50"/>
       <span class="self-center text-xl font-bold whitespace-nowrap">Tororo</span>
-  </a>
+  </Link>
   <div class="flex md:order-2">
       <div class="relative mr-3 md:mr-0 hidden md:block">
         <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
@@ -31,16 +31,16 @@ const header = () => {
   <div class="hidden md:flex justify-between items-center w-full md:w-auto md:order-1" id="mobile-menu-3">
     <ul class="flex-col md:flex-row flex md:space-x-8 mt-4 md:mt-0 md:text-sm md:font-medium">
       <li>
-        <a href="/" className="text-white hover:text-green-500 border-b border-gray-100 md:hover:bg-green md:border-0 block pl-3 pr-4 py-2 md:hover:text-green-500 md:p-0" aria-current="page">Home</a>
+        <Link href="/" className="text-white hover:text-green-500 border-b border-gray-100 md:hover:bg-green md:border-0 block pl-3 pr-4 py-2 md:hover:text-green-500 md:p-0" aria-current="page">Home</Link>
       </li>
       <li>
-        <a href="/blogs" className="text-white hover:text-green-500 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-green-500 md:p-0">Blogs</a>
+        <Link href="/blogs" className="text-white hover:text-green-500 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-green-500 md:p-0">Blogs</Link>
       </li>
       <li>
-        <a href="/about" className="text-white hover:text-green-500 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-green-500 md:p-0">About</a>
+        <Link href="/about" className="text-white hover:text-green-500 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-green-500 md:p-0">About</Link>
       </li>
       <li>
-        <a href="/contact" className="text-white hover:text-green-500 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-green-500 md:p-0">Contact us</a>
+        <Link href="/contact" className="text-white hover:text-green-500 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-green-500 md:p-0">Contact us</Link>
       </li>
     </ul>
   </div>

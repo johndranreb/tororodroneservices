@@ -58,40 +58,40 @@ const footer = () => {
         <div className="mt-8 grid grid-cols-1 gap-8 sm:grid-cols-3">
           <div>
             <p className="font-medium text-gray-900">
-              <a href="#">
+              <Link href="#">
               Services
-              </a>
+              </Link>
               </p>
              
             <ul className="mt-6 space-y-4 text-sm">
               <li>
-                <a href="#" className="text-gray-700 transition hover:opacity-75">
+                <Link href="#" className="text-gray-700 transition hover:opacity-75">
                   Special Events
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a href="#" className="text-gray-700 transition hover:opacity-75">
+                <Link href="#" className="text-gray-700 transition hover:opacity-75">
                   Sporting Events
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a href="#" className="text-gray-700 transition hover:opacity-75">
+                <Link href="#" className="text-gray-700 transition hover:opacity-75">
                   Live Broadcast
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a href="#" className="text-gray-700 transition hover:opacity-75">
+                <Link href="#" className="text-gray-700 transition hover:opacity-75">
                   Marathons
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a href="#" className="text-gray-700 transition hover:opacity-75">
+                <Link href="#" className="text-gray-700 transition hover:opacity-75">
                 Live Feed Surveillance
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -101,21 +101,21 @@ const footer = () => {
 
             <ul className="mt-6 space-y-4 text-sm">
               <li>
-                <a href="#" className="text-gray-700 transition hover:opacity-75">
+                <Link href="#" className="text-gray-700 transition hover:opacity-75">
                   About
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a href="#" className="text-gray-700 transition hover:opacity-75">
+                <Link href="#" className="text-gray-700 transition hover:opacity-75">
                   Meet the Team
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a href="#" className="text-gray-700 transition hover:opacity-75">
+                <Link href="#" className="text-gray-700 transition hover:opacity-75">
                   Accounts Review
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -125,15 +125,15 @@ const footer = () => {
 
             <ul className="mt-6 space-y-4 text-sm">
               <li>
-                <a href="/contact" className="text-gray-700 transition hover:opacity-75">
+                <Link href="/contact" className="text-gray-700 transition hover:opacity-75">
                   Contact Us
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a href="/frequently-asked-questions-faqs" className="text-gray-700 transition hover:opacity-75">
+                <Link href="/frequently-asked-questions-faqs" className="text-gray-700 transition hover:opacity-75">
                   FAQs
-                </a>
+                </Link>
               </li>
 
             </ul>
@@ -143,21 +143,21 @@ const footer = () => {
         <div className="mt-8 border-t border-gray-100 pt-8">
           <ul className="flex flex-wrap gap-4 text-xs">
             <li>
-              <a href="/terms-and-conditions" className="text-gray-500 transition hover:opacity-75">
+              <Link href="/terms-and-conditions" className="text-gray-500 transition hover:opacity-75">
                 Terms & Conditions
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a href="/privacy-policy-2" className="text-gray-500 transition hover:opacity-75">
+              <Link href="/privacy-policy-2" className="text-gray-500 transition hover:opacity-75">
                 Privacy Policy
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a href="/cookies-policy" className="text-gray-500 transition hover:opacity-75">
+              <Link href="/cookies-policy" className="text-gray-500 transition hover:opacity-75">
                 Cookies
-              </a>
+              </Link>
             </li>
           </ul>
 
