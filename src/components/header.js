@@ -1,30 +1,8 @@
-import React, { useEffect } from 'react';
+import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 
 const header = () => {
-  useEffect(() => {
-    const loadScript = async () => {
-      const script = document.createElement('script');
-      script.src = 'https://unpkg.com/@themesberg/flowbite@1.1.1/dist/flowbite.bundle.js';
-      script.async = true;
-
-      script.onload = () => {
-        // Script has loaded successfully
-        console.log('Script has loaded successfully');
-      };
-
-      script.onerror = () => {
-        // Handle script loading error if needed
-        console.error('Error loading script');
-      };
-
-      document.body.appendChild(script);
-    };
-
-    loadScript();
-  }, []);
-
   return (
   
 
