@@ -1,8 +1,20 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import Link from 'next/link'
 import Image from 'next/image'
 
 const header = () => {
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://unpkg.com/@themesberg/flowbite@1.1.1/dist/flowbite.bundle.js';
+    script.async = true;
+    document.body.appendChild(script);
+
+    return () => {
+      
+      document.body.removeChild(script);
+    };
+  }, []);
+
   return (
   
 
