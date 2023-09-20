@@ -4,15 +4,25 @@ import Image from 'next/image'
 
 const header = () => {
   useEffect(() => {
-    const script = document.createElement('script');
-    script.src = 'https://unpkg.com/@themesberg/flowbite@1.1.1/dist/flowbite.bundle.js';
-    script.async = true;
-    document.body.appendChild(script);
+    const loadScript = async () => {
+      const script = document.createElement('script');
+      script.src = 'https://unpkg.com/@themesberg/flowbite@1.1.1/dist/flowbite.bundle.js';
+      script.async = true;
 
-    return () => {
-      
-      document.body.removeChild(script);
+      script.onload = () => {
+        // Script has loaded successfully
+        console.log('Script has loaded successfully');
+      };
+
+      script.onerror = () => {
+        // Handle script loading error if needed
+        console.error('Error loading script');
+      };
+
+      document.body.appendChild(script);
     };
+
+    loadScript();
   }, []);
 
   return (
@@ -60,7 +70,6 @@ const header = () => {
 </nav>
 </div>
 
-<script src="https://unpkg.com/@themesberg/flowbite@1.1.1/dist/flowbite.bundle.js" async></script>
 </header>
   )
 }
