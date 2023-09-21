@@ -1,7 +1,7 @@
 import React from 'react'
 import { Inter } from 'next/font/google'
-import Footer from '@/components/Footer'
-import Header from '@/components/Header'
+import Header from '@/components/header'
+import Footer from '@/components/footer'
 import Head from 'next/head'
 import { useState } from 'react'
 
