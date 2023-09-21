@@ -5,8 +5,8 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'http',
-        hostname: 'http://tororo-drone-service.local',
-        port:'',
+        hostname: 'tororo-drone-service.local',
+        port:'10017',
         pathname: '/**',
       }
     ]
