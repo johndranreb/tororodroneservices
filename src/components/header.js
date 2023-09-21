@@ -1,7 +1,8 @@
+// @next/next/no-sync-scripts
+
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import Script from 'next/script'
 
 
 const Header = () => {
@@ -50,7 +51,6 @@ const Header = () => {
 </nav>
 </div>
 
-<script defer src="https://unpkg.com/@themesberg/flowbite@1.1.1/dist/flowbite.bundle.js" ></script>
 
 </header>
 
