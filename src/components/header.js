@@ -50,7 +50,7 @@ const Header = () => {
 </nav>
 </div>
 
-<script async src="https://unpkg.com/@themesberg/flowbite@1.1.1/dist/flowbite.bundle.js"></script>
+<script defer src="https://unpkg.com/@themesberg/flowbite@1.1.1/dist/flowbite.bundle.js" ></script>
 
 </header>
 
