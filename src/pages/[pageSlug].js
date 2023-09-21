@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import { Inter } from 'next/font/google'
-import Footer from '@/components/Footer'
-import Header from '@/components/Header'
+import Footer from '@/components/footer'
+import Header from '@/components/header'
 import { getPageSlugs } from '../../lib/pages'
 import { getSinglePage} from '../../lib/pages'
 

@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
+import Header from "@/components/header";
+import Footer from "@/components/footer";
 import { getPostSlugs } from "../../../lib/post";
 import { getSinglePost } from "../../../lib/post";
 import Date from "@/components/date";

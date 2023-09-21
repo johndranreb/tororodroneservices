@@ -1,14 +1,14 @@
 import React from 'react'
 import { Inter } from 'next/font/google'
-import Footer from '@/components/Footer'
-import Header from '@/components/Header'
+import Header from '@/components/header'
+import Footer from '@/components/footer'
 import Link from 'next/link'
 import Image from 'next/image'
 import Head from 'next/head'
 import { getPostList } from '../../../lib/post'
 import FeaturedImage from '@/components/FeaturedImage'
 import Date from '@/components/date'
-import LoadMore from '@/components/loadmore'
+import LoadMore from '@/components/Loadmore'
 import { useState } from 'react'
 
 
