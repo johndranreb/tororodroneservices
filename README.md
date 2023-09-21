@@ -66,13 +66,3 @@ In the project root directory, start the development server:
 5. Access the Website:
 
 Open your web browser and access the website at http://localhost:3000.
-
-## Contribution
-
-Contributions to this project are welcome. If you'd like to contribute, please follow the standard GitHub flow:
-
-Fork the repository.
-Create a new branch for your feature or bug fix.
-Make your changes and commit them with descriptive commit messages.
-Push your changes to your fork.
-Create a pull request to the main repository.
