@@ -6,7 +6,7 @@ const nextConfig = {
       {
         protocol: 'http',
         hostname: 'tororo-drone-service.local',
-        port:'10017',
+        port:'8080',
         pathname: '/**',
       }
     ]
