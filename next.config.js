@@ -5,8 +5,8 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'dev-tororodroneservices.pantheonsite.io/sample-post/',
-        port:'8080',
+        hostname: 'dev-tororodroneservices.pantheonsite.io',
+        port:'',
         pathname: '/**',
       }
     ]
