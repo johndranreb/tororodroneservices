@@ -3,7 +3,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-
+import Script from 'next/script'
 
 const Header = () => {
   return (
@@ -51,7 +51,7 @@ const Header = () => {
 </nav>
 </div>
 
-
+<script src="https://unpkg.com/@themesberg/flowbite@1.1.1/dist/flowbite.bundle.js" async></script>
 </header>
 
   )
