@@ -1,16 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  images:{
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'dev-tororodroneservices.pantheonsite.io',
-        port:'',
-        pathname: '/**',
-      }
-    ]
-  }
-}
+  images: {
+    domains: ['tororo-drone-service.local', 'dev-tororodroneservices.pantheonsite.io'],
+  },
+};
+
 
 module.exports = nextConfig
