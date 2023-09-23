@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['tororo-drone-service.local', 'dev-tororodroneservices.pantheonsite.io'],
+    domains:['dev-tororodroneservices.pantheonsite.io'],
   },
 };
 
