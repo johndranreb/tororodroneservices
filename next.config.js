@@ -4,8 +4,8 @@ const nextConfig = {
   images:{
     remotePatterns: [
       {
-        protocol: 'http',
-        hostname: 'tororo-drone-service.local',
+        protocol: 'https',
+        hostname: 'dev-tororodroneservices.pantheonsite.io/sample-post/',
         port:'8080',
         pathname: '/**',
       }
